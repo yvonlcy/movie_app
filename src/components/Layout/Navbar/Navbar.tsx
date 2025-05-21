@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import SearchBox from "@/components/SearchBox/SearchBox";
+
 export default function Navbar() {
   return (
     <>
@@ -32,7 +34,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <SearchBox />
         </div>
       </div>
     </>
